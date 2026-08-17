@@ -9,7 +9,6 @@ from .config import Config
 load_dotenv()
 
 def fetch_weather_data():
-    print("Fetched")
     tmrw_date = (datetime.now()+timedelta(days=1)).strftime("%Y-%m-%d")
     url = Config.url
     querystring = {
@@ -25,14 +24,21 @@ def fetch_weather_data():
 
     try: 
         responses = requests.request("GET", url, headers=headers, params= querystring, timeout= 10)
+        responses.raise_for_status() #Raises HTTPError for 4xx/5xx responses
         data = responses.json()
         return data
-    except requests.exceptions.RequestException as e:
+    except (requests.exceptions.RequestException, json.JSONDecodeError, ValueError) as e:
+        #Check if Network/ HTTP problem, Malformed response text, Invalid/ empty data payload happens
         print(f"Error fetching weather data: {e}")
         return None 
 
 def save_data_to_json(data):
-    print("Save?")
+    if not data:
+        print("No data to save.")
+        return
+
+    #Ensure output directory exists
+    os.makedirs(Config.raw_data_path, exist_ok=True)
     filename = f"weather_data_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     file_path = os.path.join(Config.raw_data_path, filename)
 
