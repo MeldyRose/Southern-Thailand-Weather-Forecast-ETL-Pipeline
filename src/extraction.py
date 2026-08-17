@@ -45,3 +45,8 @@ def save_data_to_json(data):
     with open(file_path, 'w', encoding= "utf-8") as f:
         json.dump(data, f, ensure_ascii= False, indent= 12)
     print(f"Data saved to {file_path}")
+
+def extraction():
+    data = fetch_weather_data()
+    file_path = save_data_to_json(data)
+    return file_path
