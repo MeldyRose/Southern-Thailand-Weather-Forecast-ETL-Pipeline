@@ -1,0 +1,1880 @@
+{
+            "WeatherForecasts": [
+                        {
+                                    "location": {
+                                                "province": "กระบี่",
+                                                "areatype": "province",
+                                                "name": "กระบี่",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "81",
+                                                "amphoe": null,
+                                                "lat": 8.062061,
+                                                "lon": 98.918394
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 51.46,
+                                                                        "cloudlow": 79,
+                                                                        "cloudmed": 83.58,
+                                                                        "cond": 5,
+                                                                        "rain": 38.5,
+                                                                        "rh": 88.27,
+                                                                        "slp": 1011.34,
+                                                                        "tc": 26.68,
+                                                                        "tc_max": 29,
+                                                                        "tc_min": 23.79,
+                                                                        "wd10m": 210.69,
+                                                                        "ws10m": 15.42
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 39.5,
+                                                                        "cloudlow": 89,
+                                                                        "cloudmed": 37.25,
+                                                                        "cond": 5,
+                                                                        "rain": 53.7,
+                                                                        "rh": 85.08,
+                                                                        "slp": 1011.11,
+                                                                        "tc": 27.51,
+                                                                        "tc_max": 30.26,
+                                                                        "tc_min": 25.19,
+                                                                        "wd10m": 251.52,
+                                                                        "ws10m": 10.14
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 39.75,
+                                                                        "cloudlow": 67.88,
+                                                                        "cloudmed": 25.63,
+                                                                        "cond": 5,
+                                                                        "rain": 40.8,
+                                                                        "rh": 82.87,
+                                                                        "slp": 1010.94,
+                                                                        "tc": 27.61,
+                                                                        "tc_max": 31.21,
+                                                                        "tc_min": 24.99,
+                                                                        "wd10m": 247.52,
+                                                                        "ws10m": 11.24
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 18.88,
+                                                                        "cloudlow": 78.13,
+                                                                        "cloudmed": 21,
+                                                                        "cond": 3,
+                                                                        "rain": 1.2,
+                                                                        "rh": 79.42,
+                                                                        "slp": 1010.79,
+                                                                        "tc": 28.8,
+                                                                        "tc_max": 33.71,
+                                                                        "tc_min": 26.2,
+                                                                        "wd10m": 270.03,
+                                                                        "ws10m": 7.53
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 44.63,
+                                                                        "cloudlow": 76.5,
+                                                                        "cloudmed": 71.13,
+                                                                        "cond": 4,
+                                                                        "rain": 16.3,
+                                                                        "rh": 78.77,
+                                                                        "slp": 1010.24,
+                                                                        "tc": 27.84,
+                                                                        "tc_max": 30.7,
+                                                                        "tc_min": 25.96,
+                                                                        "wd10m": 221.05,
+                                                                        "ws10m": 13.01
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 67.38,
+                                                                        "cloudlow": 75.63,
+                                                                        "cloudmed": 71.5,
+                                                                        "cond": 5,
+                                                                        "rain": 35.1,
+                                                                        "rh": 83.33,
+                                                                        "slp": 1009.2,
+                                                                        "tc": 27.58,
+                                                                        "tc_max": 29.8,
+                                                                        "tc_min": 26.58,
+                                                                        "wd10m": 249.83,
+                                                                        "ws10m": 11.3
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 71.13,
+                                                                        "cloudlow": 84.5,
+                                                                        "cloudmed": 58.5,
+                                                                        "cond": 5,
+                                                                        "rain": 36.1,
+                                                                        "rh": 85.13,
+                                                                        "slp": 1008.15,
+                                                                        "tc": 27.77,
+                                                                        "tc_max": 32.4,
+                                                                        "tc_min": 25.44,
+                                                                        "wd10m": 244.03,
+                                                                        "ws10m": 12.37
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "ชุมพร",
+                                                "areatype": "province",
+                                                "name": "ชุมพร",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "86",
+                                                "amphoe": null,
+                                                "lat": 10.492748,
+                                                "lon": 99.179113
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 27.46,
+                                                                        "cloudlow": 65.46,
+                                                                        "cloudmed": 16.17,
+                                                                        "cond": 3,
+                                                                        "rain": 0.2,
+                                                                        "rh": 80.89,
+                                                                        "slp": 1010.22,
+                                                                        "tc": 27.92,
+                                                                        "tc_max": 32.24,
+                                                                        "tc_min": 25.34,
+                                                                        "wd10m": 259.63,
+                                                                        "ws10m": 13.18
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 31.88,
+                                                                        "cloudlow": 75.25,
+                                                                        "cloudmed": 38.25,
+                                                                        "cond": 5,
+                                                                        "rain": 14.5,
+                                                                        "rh": 79.56,
+                                                                        "slp": 1009.65,
+                                                                        "tc": 27.5,
+                                                                        "tc_max": 31.74,
+                                                                        "tc_min": 25.12,
+                                                                        "wd10m": 268.12,
+                                                                        "ws10m": 11.19
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 28,
+                                                                        "cloudlow": 84.75,
+                                                                        "cloudmed": 52.25,
+                                                                        "cond": 4,
+                                                                        "rain": 7.3,
+                                                                        "rh": 78.39,
+                                                                        "slp": 1009.73,
+                                                                        "tc": 27.41,
+                                                                        "tc_max": 31.4,
+                                                                        "tc_min": 24.86,
+                                                                        "wd10m": 266.87,
+                                                                        "ws10m": 12.57
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 60.75,
+                                                                        "cloudlow": 77.25,
+                                                                        "cloudmed": 32.88,
+                                                                        "cond": 5,
+                                                                        "rain": 6.3,
+                                                                        "rh": 79.95,
+                                                                        "slp": 1009.68,
+                                                                        "tc": 27.42,
+                                                                        "tc_max": 32.64,
+                                                                        "tc_min": 24.88,
+                                                                        "wd10m": 255.33,
+                                                                        "ws10m": 10.7
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 50.13,
+                                                                        "cloudlow": 84.63,
+                                                                        "cloudmed": 60,
+                                                                        "cond": 4,
+                                                                        "rain": 17,
+                                                                        "rh": 76.51,
+                                                                        "slp": 1009.27,
+                                                                        "tc": 27.89,
+                                                                        "tc_max": 32.12,
+                                                                        "tc_min": 25.85,
+                                                                        "wd10m": 250.96,
+                                                                        "ws10m": 10.9
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 72.25,
+                                                                        "cloudlow": 77.13,
+                                                                        "cloudmed": 67.5,
+                                                                        "cond": 3,
+                                                                        "rain": 1.8,
+                                                                        "rh": 79.02,
+                                                                        "slp": 1007.78,
+                                                                        "tc": 27.41,
+                                                                        "tc_max": 30.41,
+                                                                        "tc_min": 24.51,
+                                                                        "wd10m": 268.92,
+                                                                        "ws10m": 11.5
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 74.38,
+                                                                        "cloudlow": 74.75,
+                                                                        "cloudmed": 48.5,
+                                                                        "cond": 4,
+                                                                        "rain": 6.3,
+                                                                        "rh": 82.18,
+                                                                        "slp": 1006.95,
+                                                                        "tc": 27.34,
+                                                                        "tc_max": 30.42,
+                                                                        "tc_min": 25.32,
+                                                                        "wd10m": 266.25,
+                                                                        "ws10m": 11.4
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "ตรัง",
+                                                "areatype": "province",
+                                                "name": "ตรัง",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "92",
+                                                "amphoe": null,
+                                                "lat": 7.557969,
+                                                "lon": 99.609802
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 51.75,
+                                                                        "cloudlow": 83.08,
+                                                                        "cloudmed": 72.5,
+                                                                        "cond": 4,
+                                                                        "rain": 15.7,
+                                                                        "rh": 92.21,
+                                                                        "slp": 1011.44,
+                                                                        "tc": 25.94,
+                                                                        "tc_max": 28.56,
+                                                                        "tc_min": 24.24,
+                                                                        "wd10m": 263.3,
+                                                                        "ws10m": 13.74
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 68.88,
+                                                                        "cloudlow": 79.88,
+                                                                        "cloudmed": 61.5,
+                                                                        "cond": 5,
+                                                                        "rain": 30.6,
+                                                                        "rh": 91.99,
+                                                                        "slp": 1011.11,
+                                                                        "tc": 26.34,
+                                                                        "tc_max": 29.47,
+                                                                        "tc_min": 24.36,
+                                                                        "wd10m": 264.52,
+                                                                        "ws10m": 9
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 70,
+                                                                        "cloudlow": 83.13,
+                                                                        "cloudmed": 55.75,
+                                                                        "cond": 5,
+                                                                        "rain": 60.4,
+                                                                        "rh": 90.63,
+                                                                        "slp": 1011.09,
+                                                                        "tc": 26.67,
+                                                                        "tc_max": 28.8,
+                                                                        "tc_min": 24.89,
+                                                                        "wd10m": 261.85,
+                                                                        "ws10m": 8.22
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 29.88,
+                                                                        "cloudlow": 83.25,
+                                                                        "cloudmed": 19.38,
+                                                                        "cond": 4,
+                                                                        "rain": 6.3,
+                                                                        "rh": 81.11,
+                                                                        "slp": 1010.8,
+                                                                        "tc": 27.88,
+                                                                        "tc_max": 31.51,
+                                                                        "tc_min": 25.04,
+                                                                        "wd10m": 265.15,
+                                                                        "ws10m": 9.11
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 49.63,
+                                                                        "cloudlow": 86.5,
+                                                                        "cloudmed": 67.38,
+                                                                        "cond": 5,
+                                                                        "rain": 37.6,
+                                                                        "rh": 87.49,
+                                                                        "slp": 1010.33,
+                                                                        "tc": 26.69,
+                                                                        "tc_max": 29.92,
+                                                                        "tc_min": 24.42,
+                                                                        "wd10m": 233.76,
+                                                                        "ws10m": 7.4
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 68.88,
+                                                                        "cloudlow": 72.38,
+                                                                        "cloudmed": 62.5,
+                                                                        "cond": 5,
+                                                                        "rain": 26,
+                                                                        "rh": 83.46,
+                                                                        "slp": 1009.14,
+                                                                        "tc": 26.08,
+                                                                        "tc_max": 30.08,
+                                                                        "tc_min": 24.22,
+                                                                        "wd10m": 279.17,
+                                                                        "ws10m": 13.52
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 64.25,
+                                                                        "cloudlow": 69.75,
+                                                                        "cloudmed": 54.88,
+                                                                        "cond": 5,
+                                                                        "rain": 20.7,
+                                                                        "rh": 86.63,
+                                                                        "slp": 1008.38,
+                                                                        "tc": 26.61,
+                                                                        "tc_max": 31.42,
+                                                                        "tc_min": 24.84,
+                                                                        "wd10m": 305.98,
+                                                                        "ws10m": 10.01
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "นครศรีธรรมราช",
+                                                "areatype": "province",
+                                                "name": "นครศรีธรรมราช",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "80",
+                                                "amphoe": null,
+                                                "lat": 8.419865,
+                                                "lon": 99.962821
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 21.67,
+                                                                        "cloudlow": 36.96,
+                                                                        "cloudmed": 54.46,
+                                                                        "cond": 1,
+                                                                        "rain": 1.9,
+                                                                        "rh": 74.69,
+                                                                        "slp": 1010.52,
+                                                                        "tc": 27.99,
+                                                                        "tc_max": 32.25,
+                                                                        "tc_min": 25.96,
+                                                                        "wd10m": 268.51,
+                                                                        "ws10m": 15.65
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 31.5,
+                                                                        "cloudlow": 26.88,
+                                                                        "cloudmed": 23.88,
+                                                                        "cond": 1,
+                                                                        "rain": 6.2,
+                                                                        "rh": 75.12,
+                                                                        "slp": 1010.16,
+                                                                        "tc": 27.94,
+                                                                        "tc_max": 31.72,
+                                                                        "tc_min": 25.08,
+                                                                        "wd10m": 267.97,
+                                                                        "ws10m": 10.73
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 17.25,
+                                                                        "cloudlow": 27.63,
+                                                                        "cloudmed": 49.75,
+                                                                        "cond": 1,
+                                                                        "rain": 5,
+                                                                        "rh": 65.09,
+                                                                        "slp": 1009.92,
+                                                                        "tc": 29.5,
+                                                                        "tc_max": 35.61,
+                                                                        "tc_min": 26.36,
+                                                                        "wd10m": 255.48,
+                                                                        "ws10m": 12.95
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 10.13,
+                                                                        "cloudlow": 18.25,
+                                                                        "cloudmed": 49.25,
+                                                                        "cond": 1,
+                                                                        "rain": 11.5,
+                                                                        "rh": 71.13,
+                                                                        "slp": 1009.86,
+                                                                        "tc": 28.99,
+                                                                        "tc_max": 34.28,
+                                                                        "tc_min": 26.88,
+                                                                        "wd10m": 265.74,
+                                                                        "ws10m": 14.41
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 41.25,
+                                                                        "cloudlow": 35.75,
+                                                                        "cloudmed": 78.88,
+                                                                        "cond": 5,
+                                                                        "rain": 6.2,
+                                                                        "rh": 74.63,
+                                                                        "slp": 1009.48,
+                                                                        "tc": 27.79,
+                                                                        "tc_max": 30.01,
+                                                                        "tc_min": 26.45,
+                                                                        "wd10m": 260.47,
+                                                                        "ws10m": 14.25
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 63.88,
+                                                                        "cloudlow": 18,
+                                                                        "cloudmed": 83.38,
+                                                                        "cond": 1,
+                                                                        "rain": 10.1,
+                                                                        "rh": 75.23,
+                                                                        "slp": 1008.37,
+                                                                        "tc": 27.91,
+                                                                        "tc_max": 30.78,
+                                                                        "tc_min": 25.49,
+                                                                        "wd10m": 252.62,
+                                                                        "ws10m": 12.81
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 61.5,
+                                                                        "cloudlow": 28.88,
+                                                                        "cloudmed": 70,
+                                                                        "cond": 1,
+                                                                        "rain": 10.7,
+                                                                        "rh": 69.39,
+                                                                        "slp": 1006.83,
+                                                                        "tc": 29.11,
+                                                                        "tc_max": 37.01,
+                                                                        "tc_min": 25.45,
+                                                                        "wd10m": 237.01,
+                                                                        "ws10m": 20.31
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "นราธิวาส",
+                                                "areatype": "province",
+                                                "name": "นราธิวาส",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "96",
+                                                "amphoe": null,
+                                                "lat": 6.428561,
+                                                "lon": 101.822871
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 46.92,
+                                                                        "cloudlow": 51.54,
+                                                                        "cloudmed": 61.17,
+                                                                        "cond": 3,
+                                                                        "rain": 16.1,
+                                                                        "rh": 81.73,
+                                                                        "slp": 1010.72,
+                                                                        "tc": 27.61,
+                                                                        "tc_max": 33.8,
+                                                                        "tc_min": 23.3,
+                                                                        "wd10m": 265.08,
+                                                                        "ws10m": 11.31
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 46.88,
+                                                                        "cloudlow": 42,
+                                                                        "cloudmed": 59.13,
+                                                                        "cond": 1,
+                                                                        "rain": 13.3,
+                                                                        "rh": 84.25,
+                                                                        "slp": 1010.99,
+                                                                        "tc": 27.15,
+                                                                        "tc_max": 31.52,
+                                                                        "tc_min": 24.82,
+                                                                        "wd10m": 71.73,
+                                                                        "ws10m": 4.17
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 55.63,
+                                                                        "cloudlow": 32.88,
+                                                                        "cloudmed": 62.5,
+                                                                        "cond": 1,
+                                                                        "rain": 0.6,
+                                                                        "rh": 77.59,
+                                                                        "slp": 1010.85,
+                                                                        "tc": 27.95,
+                                                                        "tc_max": 33.46,
+                                                                        "tc_min": 23.64,
+                                                                        "wd10m": 300.14,
+                                                                        "ws10m": 11.31
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 49.25,
+                                                                        "cloudlow": 48.88,
+                                                                        "cloudmed": 30.88,
+                                                                        "cond": 2,
+                                                                        "rain": 5.4,
+                                                                        "rh": 84.22,
+                                                                        "slp": 1010.71,
+                                                                        "tc": 27.48,
+                                                                        "tc_max": 31.88,
+                                                                        "tc_min": 23.94,
+                                                                        "wd10m": 150.44,
+                                                                        "ws10m": 5.46
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 48.63,
+                                                                        "cloudlow": 47.5,
+                                                                        "cloudmed": 48.25,
+                                                                        "cond": 1,
+                                                                        "rain": 2.4,
+                                                                        "rh": 84.63,
+                                                                        "slp": 1010.22,
+                                                                        "tc": 27.25,
+                                                                        "tc_max": 32.09,
+                                                                        "tc_min": 23.84,
+                                                                        "wd10m": 296.61,
+                                                                        "ws10m": 5.79
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 64.13,
+                                                                        "cloudlow": 32.75,
+                                                                        "cloudmed": 71,
+                                                                        "cond": 1,
+                                                                        "rain": 13.9,
+                                                                        "rh": 78.07,
+                                                                        "slp": 1008.87,
+                                                                        "tc": 27.97,
+                                                                        "tc_max": 33.93,
+                                                                        "tc_min": 24.2,
+                                                                        "wd10m": 306.67,
+                                                                        "ws10m": 7.41
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 70.38,
+                                                                        "cloudlow": 56.25,
+                                                                        "cloudmed": 65.5,
+                                                                        "cond": 3,
+                                                                        "rain": 27.4,
+                                                                        "rh": 80.61,
+                                                                        "slp": 1008.33,
+                                                                        "tc": 27.73,
+                                                                        "tc_max": 33.75,
+                                                                        "tc_min": 24.47,
+                                                                        "wd10m": 327.8,
+                                                                        "ws10m": 5.75
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "ปัตตานี",
+                                                "areatype": "province",
+                                                "name": "ปัตตานี",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "94",
+                                                "amphoe": null,
+                                                "lat": 6.86866,
+                                                "lon": 101.249235
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 29.17,
+                                                                        "cloudlow": 66.29,
+                                                                        "cloudmed": 64.33,
+                                                                        "cond": 4,
+                                                                        "rain": 11.7,
+                                                                        "rh": 76.55,
+                                                                        "slp": 1010.86,
+                                                                        "tc": 28.78,
+                                                                        "tc_max": 33.1,
+                                                                        "tc_min": 25.96,
+                                                                        "wd10m": 236.18,
+                                                                        "ws10m": 10.14
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 61.88,
+                                                                        "cloudlow": 45.63,
+                                                                        "cloudmed": 55.5,
+                                                                        "cond": 2,
+                                                                        "rain": 2.8,
+                                                                        "rh": 86.35,
+                                                                        "slp": 1011,
+                                                                        "tc": 27.24,
+                                                                        "tc_max": 29.73,
+                                                                        "tc_min": 25.43,
+                                                                        "wd10m": 221.96,
+                                                                        "ws10m": 11.53
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 67.25,
+                                                                        "cloudlow": 40.38,
+                                                                        "cloudmed": 61.13,
+                                                                        "cond": 3,
+                                                                        "rain": 2.7,
+                                                                        "rh": 83.06,
+                                                                        "slp": 1010.86,
+                                                                        "tc": 27.86,
+                                                                        "tc_max": 31.2,
+                                                                        "tc_min": 25.85,
+                                                                        "wd10m": 230.55,
+                                                                        "ws10m": 9.83
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 59.13,
+                                                                        "cloudlow": 58.63,
+                                                                        "cloudmed": 41.88,
+                                                                        "cond": 4,
+                                                                        "rain": 2.1,
+                                                                        "rh": 76.07,
+                                                                        "slp": 1010.76,
+                                                                        "tc": 28.02,
+                                                                        "tc_max": 32.19,
+                                                                        "tc_min": 26.25,
+                                                                        "wd10m": 240.27,
+                                                                        "ws10m": 9.23
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 44.5,
+                                                                        "cloudlow": 63.63,
+                                                                        "cloudmed": 64,
+                                                                        "cond": 4,
+                                                                        "rain": 15.4,
+                                                                        "rh": 85.11,
+                                                                        "slp": 1010.19,
+                                                                        "tc": 28.03,
+                                                                        "tc_max": 30.29,
+                                                                        "tc_min": 25.92,
+                                                                        "wd10m": 293.27,
+                                                                        "ws10m": 8.36
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 62.63,
+                                                                        "cloudlow": 49.88,
+                                                                        "cloudmed": 57.75,
+                                                                        "cond": 3,
+                                                                        "rain": 2.4,
+                                                                        "rh": 87.67,
+                                                                        "slp": 1008.96,
+                                                                        "tc": 28.17,
+                                                                        "tc_max": 30.29,
+                                                                        "tc_min": 26.35,
+                                                                        "wd10m": 295.48,
+                                                                        "ws10m": 9.71
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 74.38,
+                                                                        "cloudlow": 60.38,
+                                                                        "cloudmed": 70,
+                                                                        "cond": 5,
+                                                                        "rain": 29.8,
+                                                                        "rh": 90.52,
+                                                                        "slp": 1008.32,
+                                                                        "tc": 27.34,
+                                                                        "tc_max": 28.66,
+                                                                        "tc_min": 25.88,
+                                                                        "wd10m": 320.11,
+                                                                        "ws10m": 6.6
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "พังงา",
+                                                "areatype": "province",
+                                                "name": "พังงา",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "82",
+                                                "amphoe": null,
+                                                "lat": 8.442509,
+                                                "lon": 98.519465
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 30.08,
+                                                                        "cloudlow": 77.17,
+                                                                        "cloudmed": 67.96,
+                                                                        "cond": 5,
+                                                                        "rain": 16.3,
+                                                                        "rh": 84.85,
+                                                                        "slp": 1011.35,
+                                                                        "tc": 26.86,
+                                                                        "tc_max": 31.33,
+                                                                        "tc_min": 24.75,
+                                                                        "wd10m": 260.59,
+                                                                        "ws10m": 13.56
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 21.13,
+                                                                        "cloudlow": 80.75,
+                                                                        "cloudmed": 22.88,
+                                                                        "cond": 4,
+                                                                        "rain": 1.1,
+                                                                        "rh": 85.09,
+                                                                        "slp": 1011.06,
+                                                                        "tc": 27.47,
+                                                                        "tc_max": 29.64,
+                                                                        "tc_min": 25.1,
+                                                                        "wd10m": 272.93,
+                                                                        "ws10m": 9.32
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 30.5,
+                                                                        "cloudlow": 89.13,
+                                                                        "cloudmed": 17.25,
+                                                                        "cond": 4,
+                                                                        "rain": 1.2,
+                                                                        "rh": 80.75,
+                                                                        "slp": 1011.13,
+                                                                        "tc": 27.49,
+                                                                        "tc_max": 31.08,
+                                                                        "tc_min": 25.96,
+                                                                        "wd10m": 287.31,
+                                                                        "ws10m": 11.98
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 12.5,
+                                                                        "cloudlow": 88.38,
+                                                                        "cloudmed": 11.75,
+                                                                        "cond": 5,
+                                                                        "rain": 13.3,
+                                                                        "rh": 85.98,
+                                                                        "slp": 1011.04,
+                                                                        "tc": 26.99,
+                                                                        "tc_max": 30.5,
+                                                                        "tc_min": 25.12,
+                                                                        "wd10m": 252.02,
+                                                                        "ws10m": 12.9
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 33.38,
+                                                                        "cloudlow": 80.13,
+                                                                        "cloudmed": 81.38,
+                                                                        "cond": 5,
+                                                                        "rain": 9.1,
+                                                                        "rh": 88.12,
+                                                                        "slp": 1010.61,
+                                                                        "tc": 26.8,
+                                                                        "tc_max": 29.71,
+                                                                        "tc_min": 24.6,
+                                                                        "wd10m": 282.54,
+                                                                        "ws10m": 10.4
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 67.38,
+                                                                        "cloudlow": 90.63,
+                                                                        "cloudmed": 71.38,
+                                                                        "cond": 4,
+                                                                        "rain": 11,
+                                                                        "rh": 85.54,
+                                                                        "slp": 1009.36,
+                                                                        "tc": 27.46,
+                                                                        "tc_max": 30.1,
+                                                                        "tc_min": 25.97,
+                                                                        "wd10m": 260.52,
+                                                                        "ws10m": 9.27
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 58.75,
+                                                                        "cloudlow": 84.5,
+                                                                        "cloudmed": 58.5,
+                                                                        "cond": 5,
+                                                                        "rain": 19.3,
+                                                                        "rh": 81.8,
+                                                                        "slp": 1008.41,
+                                                                        "tc": 26.83,
+                                                                        "tc_max": 29.16,
+                                                                        "tc_min": 25.3,
+                                                                        "wd10m": 257.89,
+                                                                        "ws10m": 10.53
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "พัทลุง",
+                                                "areatype": "province",
+                                                "name": "พัทลุง",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "93",
+                                                "amphoe": null,
+                                                "lat": 7.619135,
+                                                "lon": 100.072981
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 37.96,
+                                                                        "cloudlow": 54.96,
+                                                                        "cloudmed": 80.25,
+                                                                        "cond": 3,
+                                                                        "rain": 1.9,
+                                                                        "rh": 82.07,
+                                                                        "slp": 1011.06,
+                                                                        "tc": 27.37,
+                                                                        "tc_max": 30.61,
+                                                                        "tc_min": 25.32,
+                                                                        "wd10m": 204.82,
+                                                                        "ws10m": 12.09
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 57.88,
+                                                                        "cloudlow": 60.75,
+                                                                        "cloudmed": 51.25,
+                                                                        "cond": 5,
+                                                                        "rain": 2.4,
+                                                                        "rh": 78.08,
+                                                                        "slp": 1010.81,
+                                                                        "tc": 27.1,
+                                                                        "tc_max": 32.11,
+                                                                        "tc_min": 24.6,
+                                                                        "wd10m": 251.64,
+                                                                        "ws10m": 7.93
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 67.88,
+                                                                        "cloudlow": 28.38,
+                                                                        "cloudmed": 66.38,
+                                                                        "cond": 5,
+                                                                        "rain": 20.7,
+                                                                        "rh": 77.56,
+                                                                        "slp": 1010.82,
+                                                                        "tc": 27.11,
+                                                                        "tc_max": 31.9,
+                                                                        "tc_min": 24.42,
+                                                                        "wd10m": 244.79,
+                                                                        "ws10m": 10.18
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 27.75,
+                                                                        "cloudlow": 47.63,
+                                                                        "cloudmed": 26.38,
+                                                                        "cond": 3,
+                                                                        "rain": 0.2,
+                                                                        "rh": 78.99,
+                                                                        "slp": 1010.64,
+                                                                        "tc": 27.43,
+                                                                        "tc_max": 31.8,
+                                                                        "tc_min": 23.97,
+                                                                        "wd10m": 269.33,
+                                                                        "ws10m": 9.22
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 36,
+                                                                        "cloudlow": 80.25,
+                                                                        "cloudmed": 72.13,
+                                                                        "cond": 4,
+                                                                        "rain": 8.4,
+                                                                        "rh": 83.87,
+                                                                        "slp": 1010.27,
+                                                                        "tc": 27.42,
+                                                                        "tc_max": 32.35,
+                                                                        "tc_min": 24.87,
+                                                                        "wd10m": 272.86,
+                                                                        "ws10m": 6.24
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 66.25,
+                                                                        "cloudlow": 89,
+                                                                        "cloudmed": 52,
+                                                                        "cond": 4,
+                                                                        "rain": 11.4,
+                                                                        "rh": 81.79,
+                                                                        "slp": 1009.01,
+                                                                        "tc": 27.44,
+                                                                        "tc_max": 32.14,
+                                                                        "tc_min": 23.76,
+                                                                        "wd10m": 274.59,
+                                                                        "ws10m": 8.34
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 79,
+                                                                        "cloudlow": 73.25,
+                                                                        "cloudmed": 50.75,
+                                                                        "cond": 5,
+                                                                        "rain": 17.4,
+                                                                        "rh": 84.94,
+                                                                        "slp": 1008.35,
+                                                                        "tc": 26.66,
+                                                                        "tc_max": 31.54,
+                                                                        "tc_min": 24.05,
+                                                                        "wd10m": 267.03,
+                                                                        "ws10m": 14.07
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "ภูเก็ต",
+                                                "areatype": "province",
+                                                "name": "ภูเก็ต",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "83",
+                                                "amphoe": null,
+                                                "lat": 7.889262,
+                                                "lon": 98.385376
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 47.63,
+                                                                        "cloudlow": 79.33,
+                                                                        "cloudmed": 80.08,
+                                                                        "cond": 5,
+                                                                        "rain": 40.7,
+                                                                        "rh": 79.33,
+                                                                        "slp": 1011.28,
+                                                                        "tc": 28.04,
+                                                                        "tc_max": 30.1,
+                                                                        "tc_min": 25.8,
+                                                                        "wd10m": 229.53,
+                                                                        "ws10m": 14.85
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 24,
+                                                                        "cloudlow": 82,
+                                                                        "cloudmed": 22.13,
+                                                                        "cond": 5,
+                                                                        "rain": 8.2,
+                                                                        "rh": 77.46,
+                                                                        "slp": 1011.04,
+                                                                        "tc": 28.33,
+                                                                        "tc_max": 29.4,
+                                                                        "tc_min": 27.15,
+                                                                        "wd10m": 262,
+                                                                        "ws10m": 12.88
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 28.88,
+                                                                        "cloudlow": 82.63,
+                                                                        "cloudmed": 39.75,
+                                                                        "cond": 5,
+                                                                        "rain": 12.4,
+                                                                        "rh": 74.52,
+                                                                        "slp": 1011.2,
+                                                                        "tc": 28.65,
+                                                                        "tc_max": 30.8,
+                                                                        "tc_min": 26.56,
+                                                                        "wd10m": 254.38,
+                                                                        "ws10m": 17.01
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 24.25,
+                                                                        "cloudlow": 63.13,
+                                                                        "cloudmed": 45.5,
+                                                                        "cond": 3,
+                                                                        "rain": 5.2,
+                                                                        "rh": 76.17,
+                                                                        "slp": 1010.95,
+                                                                        "tc": 29.18,
+                                                                        "tc_max": 30.99,
+                                                                        "tc_min": 27.71,
+                                                                        "wd10m": 276.79,
+                                                                        "ws10m": 10.36
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 35.88,
+                                                                        "cloudlow": 56.38,
+                                                                        "cloudmed": 69.63,
+                                                                        "cond": 2,
+                                                                        "rain": 0.5,
+                                                                        "rh": 70.93,
+                                                                        "slp": 1010.37,
+                                                                        "tc": 29.73,
+                                                                        "tc_max": 31.53,
+                                                                        "tc_min": 28.46,
+                                                                        "wd10m": 263.37,
+                                                                        "ws10m": 10.26
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 56.88,
+                                                                        "cloudlow": 66.38,
+                                                                        "cloudmed": 63.25,
+                                                                        "cond": 4,
+                                                                        "rain": 25.2,
+                                                                        "rh": 74.43,
+                                                                        "slp": 1009.32,
+                                                                        "tc": 29.23,
+                                                                        "tc_max": 30.71,
+                                                                        "tc_min": 28.28,
+                                                                        "wd10m": 257.64,
+                                                                        "ws10m": 9.68
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 59,
+                                                                        "cloudlow": 81.25,
+                                                                        "cloudmed": 62.13,
+                                                                        "cond": 5,
+                                                                        "rain": 23,
+                                                                        "rh": 73.7,
+                                                                        "slp": 1008.42,
+                                                                        "tc": 29.24,
+                                                                        "tc_max": 35.52,
+                                                                        "tc_min": 26.23,
+                                                                        "wd10m": 282.4,
+                                                                        "ws10m": 14.83
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "ยะลา",
+                                                "areatype": "province",
+                                                "name": "ยะลา",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "95",
+                                                "amphoe": null,
+                                                "lat": 6.541759,
+                                                "lon": 101.281588
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 26.5,
+                                                                        "cloudlow": 57.67,
+                                                                        "cloudmed": 64.63,
+                                                                        "cond": 4,
+                                                                        "rain": 0.1,
+                                                                        "rh": 74.86,
+                                                                        "slp": 1010.9,
+                                                                        "tc": 28.7,
+                                                                        "tc_max": 34.65,
+                                                                        "tc_min": 25.26,
+                                                                        "wd10m": 274.92,
+                                                                        "ws10m": 9.35
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 58.5,
+                                                                        "cloudlow": 34.13,
+                                                                        "cloudmed": 66.5,
+                                                                        "cond": 1,
+                                                                        "rain": 0,
+                                                                        "rh": 80.32,
+                                                                        "slp": 1011.05,
+                                                                        "tc": 27.11,
+                                                                        "tc_max": 33.89,
+                                                                        "tc_min": 24.59,
+                                                                        "wd10m": 317.96,
+                                                                        "ws10m": 11.63
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 67.5,
+                                                                        "cloudlow": 47.63,
+                                                                        "cloudmed": 62.38,
+                                                                        "cond": 2,
+                                                                        "rain": 2.1,
+                                                                        "rh": 76.29,
+                                                                        "slp": 1010.95,
+                                                                        "tc": 28.14,
+                                                                        "tc_max": 34.78,
+                                                                        "tc_min": 23.88,
+                                                                        "wd10m": 233.74,
+                                                                        "ws10m": 17.19
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 55,
+                                                                        "cloudlow": 37.38,
+                                                                        "cloudmed": 41.5,
+                                                                        "cond": 3,
+                                                                        "rain": 2.2,
+                                                                        "rh": 73.1,
+                                                                        "slp": 1010.79,
+                                                                        "tc": 27.69,
+                                                                        "tc_max": 34.41,
+                                                                        "tc_min": 23.26,
+                                                                        "wd10m": 311.6,
+                                                                        "ws10m": 8.5
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 52.5,
+                                                                        "cloudlow": 38.63,
+                                                                        "cloudmed": 58.75,
+                                                                        "cond": 1,
+                                                                        "rain": 0,
+                                                                        "rh": 77.5,
+                                                                        "slp": 1010.25,
+                                                                        "tc": 28.87,
+                                                                        "tc_max": 40.39,
+                                                                        "tc_min": 22.87,
+                                                                        "wd10m": 211.46,
+                                                                        "ws10m": 3.78
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 58.88,
+                                                                        "cloudlow": 43.25,
+                                                                        "cloudmed": 79.38,
+                                                                        "cond": 3,
+                                                                        "rain": 4.5,
+                                                                        "rh": 78.53,
+                                                                        "slp": 1009.05,
+                                                                        "tc": 28.29,
+                                                                        "tc_max": 33.48,
+                                                                        "tc_min": 25.08,
+                                                                        "wd10m": 315.75,
+                                                                        "ws10m": 11
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 70.5,
+                                                                        "cloudlow": 49.75,
+                                                                        "cloudmed": 76.13,
+                                                                        "cond": 3,
+                                                                        "rain": 3.5,
+                                                                        "rh": 79.86,
+                                                                        "slp": 1008.24,
+                                                                        "tc": 27.21,
+                                                                        "tc_max": 33.73,
+                                                                        "tc_min": 24.01,
+                                                                        "wd10m": 193,
+                                                                        "ws10m": 5.43
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "ระนอง",
+                                                "areatype": "province",
+                                                "name": "ระนอง",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "85",
+                                                "amphoe": null,
+                                                "lat": 9.967139,
+                                                "lon": 98.633426
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 26.25,
+                                                                        "cloudlow": 96.92,
+                                                                        "cloudmed": 35.13,
+                                                                        "cond": 4,
+                                                                        "rain": 12.3,
+                                                                        "rh": 86.44,
+                                                                        "slp": 1011.19,
+                                                                        "tc": 27.38,
+                                                                        "tc_max": 28.9,
+                                                                        "tc_min": 25.79,
+                                                                        "wd10m": 248.43,
+                                                                        "ws10m": 9.26
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 37.63,
+                                                                        "cloudlow": 91.25,
+                                                                        "cloudmed": 35.25,
+                                                                        "cond": 5,
+                                                                        "rain": 30.7,
+                                                                        "rh": 85.41,
+                                                                        "slp": 1010.73,
+                                                                        "tc": 26.78,
+                                                                        "tc_max": 27.73,
+                                                                        "tc_min": 24.85,
+                                                                        "wd10m": 250.69,
+                                                                        "ws10m": 9.15
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 39.13,
+                                                                        "cloudlow": 88.13,
+                                                                        "cloudmed": 48.63,
+                                                                        "cond": 5,
+                                                                        "rain": 28.7,
+                                                                        "rh": 86.84,
+                                                                        "slp": 1010.74,
+                                                                        "tc": 27.03,
+                                                                        "tc_max": 28.14,
+                                                                        "tc_min": 26.02,
+                                                                        "wd10m": 254.4,
+                                                                        "ws10m": 9.32
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 52.38,
+                                                                        "cloudlow": 91.75,
+                                                                        "cloudmed": 56.25,
+                                                                        "cond": 5,
+                                                                        "rain": 24,
+                                                                        "rh": 83.93,
+                                                                        "slp": 1010.55,
+                                                                        "tc": 27.51,
+                                                                        "tc_max": 29.33,
+                                                                        "tc_min": 26.22,
+                                                                        "wd10m": 246.27,
+                                                                        "ws10m": 12.37
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 55.38,
+                                                                        "cloudlow": 91.13,
+                                                                        "cloudmed": 82.38,
+                                                                        "cond": 5,
+                                                                        "rain": 49.7,
+                                                                        "rh": 89.93,
+                                                                        "slp": 1010.23,
+                                                                        "tc": 26.95,
+                                                                        "tc_max": 27.42,
+                                                                        "tc_min": 26.33,
+                                                                        "wd10m": 247.23,
+                                                                        "ws10m": 12.38
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 49.38,
+                                                                        "cloudlow": 100,
+                                                                        "cloudmed": 82.75,
+                                                                        "cond": 5,
+                                                                        "rain": 104.8,
+                                                                        "rh": 90.96,
+                                                                        "slp": 1008.92,
+                                                                        "tc": 27.12,
+                                                                        "tc_max": 28.02,
+                                                                        "tc_min": 26.63,
+                                                                        "wd10m": 250.66,
+                                                                        "ws10m": 11.35
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 58.38,
+                                                                        "cloudlow": 94,
+                                                                        "cloudmed": 71.5,
+                                                                        "cond": 5,
+                                                                        "rain": 113.1,
+                                                                        "rh": 89.96,
+                                                                        "slp": 1007.98,
+                                                                        "tc": 26.96,
+                                                                        "tc_max": 27.73,
+                                                                        "tc_min": 25,
+                                                                        "wd10m": 254.98,
+                                                                        "ws10m": 12.25
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "สงขลา",
+                                                "areatype": "province",
+                                                "name": "สงขลา",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "90",
+                                                "amphoe": null,
+                                                "lat": 7.207486,
+                                                "lon": 100.596251
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 37.33,
+                                                                        "cloudlow": 51.96,
+                                                                        "cloudmed": 69.5,
+                                                                        "cond": 3,
+                                                                        "rain": 0.2,
+                                                                        "rh": 78.78,
+                                                                        "slp": 1010.95,
+                                                                        "tc": 29.34,
+                                                                        "tc_max": 31.54,
+                                                                        "tc_min": 27.93,
+                                                                        "wd10m": 266.87,
+                                                                        "ws10m": 11.54
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 62.88,
+                                                                        "cloudlow": 60.25,
+                                                                        "cloudmed": 71.5,
+                                                                        "cond": 3,
+                                                                        "rain": 3.6,
+                                                                        "rh": 81.53,
+                                                                        "slp": 1010.89,
+                                                                        "tc": 28.61,
+                                                                        "tc_max": 30.67,
+                                                                        "tc_min": 26.79,
+                                                                        "wd10m": 223.36,
+                                                                        "ws10m": 11.12
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 64.63,
+                                                                        "cloudlow": 58.75,
+                                                                        "cloudmed": 61.13,
+                                                                        "cond": 3,
+                                                                        "rain": 2.4,
+                                                                        "rh": 83.99,
+                                                                        "slp": 1010.94,
+                                                                        "tc": 28.37,
+                                                                        "tc_max": 31,
+                                                                        "tc_min": 25.89,
+                                                                        "wd10m": 232.04,
+                                                                        "ws10m": 20.09
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 45,
+                                                                        "cloudlow": 76.5,
+                                                                        "cloudmed": 40.25,
+                                                                        "cond": 5,
+                                                                        "rain": 11.7,
+                                                                        "rh": 83.52,
+                                                                        "slp": 1010.76,
+                                                                        "tc": 28.69,
+                                                                        "tc_max": 30.57,
+                                                                        "tc_min": 27.46,
+                                                                        "wd10m": 284.45,
+                                                                        "ws10m": 8.44
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 29.5,
+                                                                        "cloudlow": 52.25,
+                                                                        "cloudmed": 70,
+                                                                        "cond": 3,
+                                                                        "rain": 4.9,
+                                                                        "rh": 80.05,
+                                                                        "slp": 1010.1,
+                                                                        "tc": 29.14,
+                                                                        "tc_max": 32.54,
+                                                                        "tc_min": 26.68,
+                                                                        "wd10m": 228,
+                                                                        "ws10m": 10.36
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 60.75,
+                                                                        "cloudlow": 77.88,
+                                                                        "cloudmed": 72.63,
+                                                                        "cond": 3,
+                                                                        "rain": 31.7,
+                                                                        "rh": 82.37,
+                                                                        "slp": 1009.03,
+                                                                        "tc": 28.82,
+                                                                        "tc_max": 31.17,
+                                                                        "tc_min": 27.21,
+                                                                        "wd10m": 259.92,
+                                                                        "ws10m": 7.41
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 72,
+                                                                        "cloudlow": 86.38,
+                                                                        "cloudmed": 62.5,
+                                                                        "cond": 5,
+                                                                        "rain": 29,
+                                                                        "rh": 89.21,
+                                                                        "slp": 1008.42,
+                                                                        "tc": 27.94,
+                                                                        "tc_max": 28.79,
+                                                                        "tc_min": 27.55,
+                                                                        "wd10m": 290.67,
+                                                                        "ws10m": 7.98
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "สตูล",
+                                                "areatype": "province",
+                                                "name": "สตูล",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "91",
+                                                "amphoe": null,
+                                                "lat": 6.62339,
+                                                "lon": 100.066649
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 69.21,
+                                                                        "cloudlow": 81.25,
+                                                                        "cloudmed": 85.92,
+                                                                        "cond": 4,
+                                                                        "rain": 6.9,
+                                                                        "rh": 87.95,
+                                                                        "slp": 1011.48,
+                                                                        "tc": 26.52,
+                                                                        "tc_max": 30.15,
+                                                                        "tc_min": 24.4,
+                                                                        "wd10m": 297.68,
+                                                                        "ws10m": 6.88
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 77.38,
+                                                                        "cloudlow": 83.75,
+                                                                        "cloudmed": 66.75,
+                                                                        "cond": 5,
+                                                                        "rain": 12.8,
+                                                                        "rh": 88.12,
+                                                                        "slp": 1011.34,
+                                                                        "tc": 26.58,
+                                                                        "tc_max": 28.98,
+                                                                        "tc_min": 23.71,
+                                                                        "wd10m": 275.61,
+                                                                        "ws10m": 6.34
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 80.38,
+                                                                        "cloudlow": 76.38,
+                                                                        "cloudmed": 67.25,
+                                                                        "cond": 5,
+                                                                        "rain": 48.9,
+                                                                        "rh": 87.79,
+                                                                        "slp": 1011.26,
+                                                                        "tc": 27.02,
+                                                                        "tc_max": 30.74,
+                                                                        "tc_min": 24.92,
+                                                                        "wd10m": 224.69,
+                                                                        "ws10m": 5.32
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 61,
+                                                                        "cloudlow": 74.75,
+                                                                        "cloudmed": 35.63,
+                                                                        "cond": 5,
+                                                                        "rain": 6.8,
+                                                                        "rh": 83.73,
+                                                                        "slp": 1011.05,
+                                                                        "tc": 27.99,
+                                                                        "tc_max": 31.31,
+                                                                        "tc_min": 25.43,
+                                                                        "wd10m": 217.69,
+                                                                        "ws10m": 5.85
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 50.5,
+                                                                        "cloudlow": 84.38,
+                                                                        "cloudmed": 55.75,
+                                                                        "cond": 4,
+                                                                        "rain": 14.1,
+                                                                        "rh": 75.35,
+                                                                        "slp": 1010.55,
+                                                                        "tc": 29.82,
+                                                                        "tc_max": 41.87,
+                                                                        "tc_min": 23.58,
+                                                                        "wd10m": 218.78,
+                                                                        "ws10m": 5.31
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 67.25,
+                                                                        "cloudlow": 90.5,
+                                                                        "cloudmed": 62.5,
+                                                                        "cond": 5,
+                                                                        "rain": 17.4,
+                                                                        "rh": 87.3,
+                                                                        "slp": 1009.31,
+                                                                        "tc": 28.12,
+                                                                        "tc_max": 30.83,
+                                                                        "tc_min": 26.21,
+                                                                        "wd10m": 242.62,
+                                                                        "ws10m": 7.03
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 70.63,
+                                                                        "cloudlow": 92.5,
+                                                                        "cloudmed": 46.38,
+                                                                        "cond": 5,
+                                                                        "rain": 41.9,
+                                                                        "rh": 88.75,
+                                                                        "slp": 1008.6,
+                                                                        "tc": 28.12,
+                                                                        "tc_max": 36.22,
+                                                                        "tc_min": 25.33,
+                                                                        "wd10m": 197.52,
+                                                                        "ws10m": 5.84
+                                                            }
+                                                }
+                                    ]
+                        },
+                        {
+                                    "location": {
+                                                "province": "สุราษฎร์ธานี",
+                                                "areatype": "province",
+                                                "name": "สุราษฎร์ธานี",
+                                                "tambon": null,
+                                                "region": "S",
+                                                "geocode": "84",
+                                                "amphoe": null,
+                                                "lat": 9.136008,
+                                                "lon": 99.320337
+                                    },
+                                    "forecasts": [
+                                                {
+                                                            "time": "2026-08-24T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 10.13,
+                                                                        "cloudlow": 68.54,
+                                                                        "cloudmed": 46.21,
+                                                                        "cond": 3,
+                                                                        "rain": 0.5,
+                                                                        "rh": 72.85,
+                                                                        "slp": 1010.7,
+                                                                        "tc": 28.37,
+                                                                        "tc_max": 33.84,
+                                                                        "tc_min": 24.57,
+                                                                        "wd10m": 246.23,
+                                                                        "ws10m": 12.69
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-25T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 13.75,
+                                                                        "cloudlow": 63.75,
+                                                                        "cloudmed": 12,
+                                                                        "cond": 4,
+                                                                        "rain": 2.8,
+                                                                        "rh": 77.24,
+                                                                        "slp": 1010.24,
+                                                                        "tc": 28.08,
+                                                                        "tc_max": 33.68,
+                                                                        "tc_min": 24.65,
+                                                                        "wd10m": 268.33,
+                                                                        "ws10m": 13.64
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-26T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 25.63,
+                                                                        "cloudlow": 74.88,
+                                                                        "cloudmed": 24.5,
+                                                                        "cond": 4,
+                                                                        "rain": 0.1,
+                                                                        "rh": 71.97,
+                                                                        "slp": 1010.4,
+                                                                        "tc": 28.49,
+                                                                        "tc_max": 33.6,
+                                                                        "tc_min": 24.89,
+                                                                        "wd10m": 264.99,
+                                                                        "ws10m": 12.76
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-27T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 9.25,
+                                                                        "cloudlow": 81.25,
+                                                                        "cloudmed": 39.38,
+                                                                        "cond": 4,
+                                                                        "rain": 3.4,
+                                                                        "rh": 74.87,
+                                                                        "slp": 1010.22,
+                                                                        "tc": 28.47,
+                                                                        "tc_max": 35.52,
+                                                                        "tc_min": 24.58,
+                                                                        "wd10m": 262.7,
+                                                                        "ws10m": 11.39
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-28T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 47.13,
+                                                                        "cloudlow": 66.38,
+                                                                        "cloudmed": 71.25,
+                                                                        "cond": 5,
+                                                                        "rain": 10.5,
+                                                                        "rh": 79.4,
+                                                                        "slp": 1009.9,
+                                                                        "tc": 27.24,
+                                                                        "tc_max": 31.02,
+                                                                        "tc_min": 25.08,
+                                                                        "wd10m": 243.08,
+                                                                        "ws10m": 11.03
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-29T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 55.25,
+                                                                        "cloudlow": 87.13,
+                                                                        "cloudmed": 71.88,
+                                                                        "cond": 4,
+                                                                        "rain": 11.6,
+                                                                        "rh": 85.4,
+                                                                        "slp": 1008.81,
+                                                                        "tc": 26.77,
+                                                                        "tc_max": 30.7,
+                                                                        "tc_min": 24.76,
+                                                                        "wd10m": 240.41,
+                                                                        "ws10m": 10.22
+                                                            }
+                                                },
+                                                {
+                                                            "time": "2026-08-30T00:00:00+07:00",
+                                                            "data": {
+                                                                        "cloudhigh": 54.13,
+                                                                        "cloudlow": 78.63,
+                                                                        "cloudmed": 46.75,
+                                                                        "cond": 4,
+                                                                        "rain": 2.1,
+                                                                        "rh": 78.81,
+                                                                        "slp": 1007.61,
+                                                                        "tc": 27.67,
+                                                                        "tc_max": 32.92,
+                                                                        "tc_min": 25.03,
+                                                                        "wd10m": 249.29,
+                                                                        "ws10m": 8.34
+                                                            }
+                                                }
+                                    ]
+                        }
+            ]
+}
