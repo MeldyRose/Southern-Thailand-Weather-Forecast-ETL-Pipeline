@@ -5,7 +5,7 @@ from .transformation import transformation
 
 def main():
     raw_data = extraction()
-    transformation(raw_data)
+    processed_data = transformation(raw_data)
 
 
 
