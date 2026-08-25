@@ -62,6 +62,7 @@ Activate it:
 Create a `.env` file:
 ```
     API_KEY=your_api_key
+    DATASEBASE_URL=your_database_url
 ```  
 > Never commit your `.env` file or API key to Git.
 

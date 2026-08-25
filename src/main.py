@@ -2,12 +2,15 @@
 
 from .extraction import extraction
 from .transformation import transformation
+from .load import load_data
 
 def main():
     raw_data = extraction()
     processed_data = transformation(raw_data)
+    load = load_data(processed_data)
 
-
+    if not load:
+        raise ValueError("Load fails.")
 
     
 
