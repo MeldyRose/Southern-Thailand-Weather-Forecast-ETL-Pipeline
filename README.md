@@ -62,6 +62,7 @@ Activate it:
 Create a `.env` file:
 ```
     API_KEY=your_api_key
+    DATABASE_URL=your_database_url
 ```  
 > Never commit your `.env` file or API key to Git.
 
@@ -74,7 +75,7 @@ Currently, main.py is used as orchestration, with Apache Airflow planned for fut
 
 ## ETL Pipeline
 
-> In progress
+![Architecture for ETL Pipeline](ETL_Architecture.png)
 
 ## Project Structure
 
