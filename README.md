@@ -75,7 +75,7 @@ Currently, main.py is used as orchestration, with Apache Airflow planned for fut
 
 ## ETL Pipeline
 
-> In progress
+![Architecture for ETL Pipeline](ETL_Architecture.png)
 
 ## Project Structure
 
