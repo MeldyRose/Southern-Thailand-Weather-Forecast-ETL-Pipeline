@@ -79,7 +79,30 @@ Currently, main.py is used as orchestration, with Apache Airflow planned for fut
 
 ## Project Structure
 
-> In progress
+Southern-Thailand-Weather-Forecast-ETL-Pipeline/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── sql/
+│   ├── 01_weather_risk_views.sql
+│   ├── 02_rainfall_accumulation.sql
+│   ├── 03_rainfall_streaks.sql
+│   └── 04_rainfall_saved_streaks.sql
+│
+├── src/
+│   ├── config.py
+│   ├── extraction.py
+│   ├── transformation.py
+│   ├── main.py
+│   ├── load/
+│   └──`__init__.py`
+├── .env.example
+├── ETL_Architecture.png
+├── requirements.txt
+└── README.md
+
 
 ## Data Source
 
@@ -116,13 +139,47 @@ The processed weather data will be used to explore:
      
 ## Analysis
 
-> In progress
+The data produced by the ETL pipeline is structured and stored in PostgreSQL so that it can be used for different types of analysis and downstream applications.
 
+For this project, the processed weather data is used to analyze **forecast rainfall and potential flood-risk indicators in Southern Thailand**. SQL views are created to transform the structured weather data into analytical datasets for the current use case.
+
+Although the analysis focuses on rainfall and flood-risk indicators, the ETL pipeline is designed to produce reusable weather data that can support other analytical tasks in the future.
+
+### Current Analysis
+
+The current analysis focuses on the following areas:
+
+#### 1. Rainfall Risk Classification
+
+Rainfall values are classified into different intensity or risk levels to identify locations with higher forecast rainfall.
+
+This allows rainfall conditions to be compared across different locations and provinces.
+
+#### 2. Rainfall Accumulation
+
+Rainfall accumulation is calculated across multiple forecast periods to identify areas that may experience sustained rainfall.
+
+The analysis includes:
+
+- 1-day rainfall accumulation
+- 3-day rainfall accumulation
+- 7-day rainfall accumulation
+
+This provides more context than analyzing rainfall from a single forecast day.
+
+#### 3. Consecutive Rainfall Streaks
+
+The pipeline identifies consecutive rainy days for each forecast location.
+
+A rainy day is currently defined as:
+
+```
+rain > 10 mm
+```
 
 ## Future Improvements
 
 - Add automated orchestration with Apache Airflow
 - Containerize the pipeline with Docker
 - Add data quality tests
-- Build a Power BI dashboard
 

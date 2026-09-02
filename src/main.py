@@ -12,7 +12,5 @@ def main():
     if not load:
         raise ValueError("Load fails.")
 
-    
-
 if __name__ == "__main__":
     main()
