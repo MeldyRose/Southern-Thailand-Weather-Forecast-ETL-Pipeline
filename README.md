@@ -78,7 +78,7 @@ Currently, main.py is used as orchestration, with Apache Airflow planned for fut
 ![Architecture for ETL Pipeline](ETL_Architecture.png)
 
 ## Project Structure
-
+```
 Southern-Thailand-Weather-Forecast-ETL-Pipeline/
 │
 ├── data/
@@ -102,7 +102,7 @@ Southern-Thailand-Weather-Forecast-ETL-Pipeline/
 ├── ETL_Architecture.png
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Data Source
 
