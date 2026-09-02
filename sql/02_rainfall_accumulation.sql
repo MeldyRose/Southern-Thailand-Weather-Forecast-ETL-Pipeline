@@ -17,7 +17,7 @@ SELECT
 --C. 7-day cumulative rainfall
     SUM(rain) OVER (
         PARTITION BY geocode
-        ORDER BY forecast_
+        ORDER BY forecast_date
         ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
     ) AS rain_7day_total
 
