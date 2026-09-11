@@ -3,3 +3,4 @@ __pycache/
 .env
 *.pyc
 tests/
+data/
