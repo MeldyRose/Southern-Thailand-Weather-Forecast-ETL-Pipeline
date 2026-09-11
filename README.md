@@ -98,7 +98,7 @@ Southern-Thailand-Weather-Forecast-ETL-Pipeline/
 │   ├── transformation.py
 │   ├── main.py
 │   ├── load/
-│   └──`__init__.py`
+│   └──__init__.py
 ├── .env.example
 ├── ETL_Architecture.png
 ├── requirements.txt
