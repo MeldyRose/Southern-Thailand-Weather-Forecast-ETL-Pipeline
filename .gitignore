@@ -1,5 +1,6 @@
 .venv/
 __pycache/
+__pycache__/
 .env
 *.pyc
 logs/
@@ -9,3 +10,4 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+config/
