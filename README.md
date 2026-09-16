@@ -298,5 +298,5 @@ rain > 10 mm
 
 ## Future Improvements
 
-- [ ] Add data quality tests (e.g. Great Expectations / Pytest)
+- Add data quality tests (e.g. Great Expectations / Pytest)
 
