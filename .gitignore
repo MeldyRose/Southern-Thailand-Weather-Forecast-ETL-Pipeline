@@ -2,10 +2,13 @@
 __pycache/
 .env
 *.pyc
-logs/
-plugins/
 tests/
-data/raw/*
 data/processed/*
+data/raw/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+logs/
+docker-compose.override.yaml
+docker-compose.yaml
+__pycache__/
+plugins
