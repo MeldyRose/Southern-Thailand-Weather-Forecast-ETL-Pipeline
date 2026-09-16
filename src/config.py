@@ -4,6 +4,7 @@ import os
 
 load_dotenv()
 
+
 # Define the project root directory
 ProjectRoot = Path(__file__).resolve().parent.parent
 

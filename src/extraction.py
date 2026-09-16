@@ -6,6 +6,7 @@ import requests
 
 from .config import Config
 
+
 load_dotenv()
 
 def fetch_weather_data():

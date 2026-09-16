@@ -33,34 +33,34 @@ This project builds an ETL pipeline that:
 
 ### 1. Clone the repository
 
-```
+```bash
     git clone https://github.com/MeldyRose/Southern-Thailand-Weather-Forecast-ETL-Pipeline.git
     cd Southern-Thailand-Weather-Forecast-ETL-Pipeline
 ```
 
 ### 2. Create a virtual environment
 
-```
+```bash
     python -m venv .venv
 ```
 
 Activate it:
 
 **Windows**
-```
+```bash
     .venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
 
-```
+```bash
     pip install -r requirements.txt
 ```    
 
 ### 4. Configure environment variables
 
 Create a `.env` file:
-```
+```bash
     API_KEY=your_api_key
     DATABASE_URL=your_database_url
 ```  
@@ -68,10 +68,181 @@ Create a `.env` file:
 
 ### 5. Run the pipeline
 
-Currently, main.py is used as orchestration, with Apache Airflow planned for future automation.
+The pipeline can be run in two ways:
+
+1. **Airflow + Docker** — recommended for scheduled orchestration
+2. **Python `main.py`** — fallback option for running the ETL manually
+
+#### 5.1 Set Up Airflow and Docker
+
+##### 5.1.1 Download Airflow and Docker
+
+Before running the pipeline with Airflow, install Docker Desktop and download the official Airflow Docker Compose setup.
+
+- **Docker Desktop:** https://www.docker.com/products/docker-desktop/
+- **Apache Airflow:** https://airflow.apache.org/docs/apache-airflow/stable/start.html
+- **Apache Airflow Docker Setup:** https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+
+Make sure Docker Desktop is running before continuing.
+
+Create a separate folder for the Airflow environment:
+
+```bash
+mkdir airflow-docker
+cd airflow-docker
 ```
-    python -m src.main
-```  
+
+Download the official `docker-compose.yaml` file from the Airflow documentation and place it inside this folder.
+
+##### 5.1.2 Set Up Airflow in Docker
+
+Create the required Airflow directories and place the project's DAG inside the `dags` folder:
+> or use already have the directory.
+
+```text
+airflow-docker/
+├── docker-compose.yaml
+├── dags/
+│   └── pipeline.py
+├── logs/
+├── config/
+└── plugins/
+```
+
+The `pipeline.py` DAG orchestrates the Weather ETL workflow:
+
+```text
+Extract → Transform → Load
+```
+
+Update the `volumes` section in `docker-compose.yaml` so the Airflow container can access the project's `src/` and `data/` directories:
+
+```bash
+volumes:
+  - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+  - <PROJECT_PATH>/src:/opt/airflow/src
+  - <PROJECT_PATH>/data:/opt/airflow/data
+```
+
+Replace `<PROJECT_PATH>` with the local path to the cloned Weather ETL project.
+
+Initialize Airflow:
+
+```bash
+docker compose up airflow-init
+```
+
+After initialization is complete, start Airflow:
+
+```bash
+docker compose up -d
+```
+
+Check that the Airflow containers are running:
+
+```bash
+docker compose ps
+```
+
+Open the Airflow web interface:
+
+```text
+http://localhost:8080
+```
+
+#### 5.2 Important Configuration
+
+Before running the DAG, make sure the following configuration is correct in `docker-compose.yaml`.
+
+##### 5.2.1 Airflow Username and Password
+
+Check the Airflow username and password configured in the Docker Compose file.
+
+Use these credentials to log in to:
+
+```text
+http://localhost:8080
+```
+
+Do not commit personal or sensitive passwords to GitHub.
+
+##### 5.2.2 PostgreSQL Database URL
+
+The Airflow container needs to connect to the PostgreSQL database used by the Weather ETL project.
+
+Update the database URL in `docker-compose.yaml`:
+
+```yaml
+AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://<POSTGRES_USER>:<POSTGRES_PASSWORD>@host.docker.internal:5432/<POSTGRES_DATABASE>
+```
+
+Replace:
+
+```text
+<POSTGRES_USER>      → PostgreSQL username
+<POSTGRES_PASSWORD>  → PostgreSQL password
+<POSTGRES_DATABASE>  → PostgreSQL database name
+```
+
+Use `host.docker.internal` as the host when PostgreSQL is running on the local machine outside Docker.
+
+> **Important:** The database name is the PostgreSQL database name, not a table name or view name.
+
+##### 5.2.3 Run the Weather ETL DAG
+
+After Airflow is running, open:
+
+```text
+http://localhost:8080
+```
+
+Find the DAG:
+
+```text
+southern_thailand_weather_forecast_etl_pipeline
+```
+
+Enable/unpause the DAG and trigger a run.
+
+The tasks will run in the following order:
+
+```text
+Extract → Transform → Load
+```
+
+After a successful run, the weather data will be loaded into PostgreSQL.
+
+#### 5.2.4 Stop Airflow
+
+When finished, stop the Airflow containers:
+
+```bash
+docker compose down
+```
+
+To start Airflow again:
+
+```bash
+docker compose up -d
+```
+
+#### 5.3 Run the Pipeline Without Airflow
+
+If Airflow or Docker is unavailable, the ETL pipeline can still be run directly with Python.
+
+From the project root:
+
+```bash
+python -m src.main
+```
+
+This runs the core ETL workflow:
+
+```text
+Extract → Transform → Load
+```
+
+This option is mainly intended for development, testing, and debugging.
 
 ## ETL Pipeline
 
@@ -81,9 +252,24 @@ Currently, main.py is used as orchestration, with Apache Airflow planned for fut
 ```
 Southern-Thailand-Weather-Forecast-ETL-Pipeline/
 │
+├── config/
+│   └── airflow.cfg
+│
+├── dags/
+│   └── pipeline.py
+│
 ├── data/
 │   ├── raw/
-│   └── processed/
+│   └── processed/    
+│
+├── notebook/
+│   └── weather_eda.ipynb
+│
+├── plugins/
+│
+├── powerbi/
+│   ├── README.md
+│   └── Weather_Forecast_Analysis_20260902.png
 │
 ├── sql/
 │   ├── 01_weather_risk_views.sql
@@ -92,16 +278,24 @@ Southern-Thailand-Weather-Forecast-ETL-Pipeline/
 │   └── 04_rainfall_saved_streaks.sql
 │
 ├── src/
+│   ├── __init__.py
 │   ├── config.py
 │   ├── extraction.py
-│   ├── transformation.py
+│   ├── load.py
 │   ├── main.py
-│   ├── load/
-│   └──__init__.py
+│   └── transformation.py
+│
+├── tests/
+│   ├── test_extraction.py
+│   └── test_main.py
+│
 ├── .env.example
+├── .gitignore
+├── docker-compose.yaml
 ├── ETL_Architecture.png
-├── requirements.txt
-└── README.md
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
 ## Data Source
@@ -179,7 +373,6 @@ rain > 10 mm
 
 ## Future Improvements
 
-- Add automated orchestration with Apache Airflow
 - Containerize the pipeline with Docker
 - Add data quality tests
 
