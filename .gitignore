@@ -3,8 +3,8 @@ __pycache/
 .env
 *.pyc
 tests/
-data/processed/
-data/raw/
+data/processed/*
+data/raw/*
 logs/
 docker-compose.override.yaml
 docker-compose.yaml
