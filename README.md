@@ -53,18 +53,30 @@ Activate it:
 
 ### 3. Install dependencies
 
-```bash
-    pip install -r requirements.txt
-```    
+* **Docker (Recommended)**: Dependencies listed in `requirements.txt` are automatically installed inside the container via the `Dockerfile` when you run `docker compose up --build`. No manual installation is needed!
+* **Local Python Execution (Fallback)**: If running the ETL pipeline manually without Docker, install dependencies inside your virtual environment:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ### 4. Configure environment variables
 
-Create a `.env` file:
+Create a `.env` file by copying `.env.example`:
+
+**Linux / macOS / Git Bash / PowerShell:**
 ```bash
-    API_KEY=your_api_key
-    DATABASE_URL=your_database_url
-```  
-> Never commit your `.env` file or API key to Git.
+cp .env.example .env
+```
+
+Or on **Windows Command Prompt (cmd)**:
+```cmd
+copy .env.example .env
+```
+
+Open `.env` and fill in your keys.
+
+> **Security Note:** Never commit your `.env` file or API key to Git (`.env` is included in `.gitignore`).
 
 ### 5. Run the pipeline
 
@@ -75,158 +87,71 @@ The pipeline can be run in two ways:
 
 #### 5.1 Set Up Airflow and Docker
 
-##### 5.1.1 Download Airflow and Docker
+The repository includes a custom **`Dockerfile`** and a ready-to-use **`docker-compose.yaml`** in the root directory to orchestrate Apache Airflow and PostgreSQL.
 
-Before running the pipeline with Airflow, install Docker Desktop and download the official Airflow Docker Compose setup.
+##### 5.1.1 How the `Dockerfile` Works
 
-- **Docker Desktop:** https://www.docker.com/products/docker-desktop/
-- **Apache Airflow:** https://airflow.apache.org/docs/apache-airflow/stable/start.html
-- **Apache Airflow Docker Setup:** https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+The project uses a custom **`Dockerfile`** extending `apache/airflow:2.7.1-python3.11` to package the ETL environment:
+- **System Dependencies**: Installs system packages (`gcc`, `libpq-dev`) for database driver support.
+- **Python Requirements**: Automatically installs all project dependencies from `requirements.txt` into the Airflow environment layer.
+- **Source Code Integration**: Copies `src/` into `/opt/airflow/src/` so Airflow tasks can directly import extraction, transformation, and loading functions.
 
-Make sure Docker Desktop is running before continuing.
+When `docker compose up --build` is run, Docker automatically uses the `Dockerfile` (`build: .` in `docker-compose.yaml`) to build the custom container image for all Airflow services.
 
-Create a separate folder for the Airflow environment:
+##### 5.1.2 Services Overview in Docker Compose
 
-```bash
-mkdir airflow-docker
-cd airflow-docker
-```
+The `docker-compose.yaml` manages two PostgreSQL services to keep system metadata separated from your business data:
 
-Download the official `docker-compose.yaml` file from the Airflow documentation and place it inside this folder.
+1. **`postgres` (Airflow Metadata DB)**: Internal database used exclusively by Apache Airflow to store DAG runs, execution logs, and scheduling metadata.
+2. **`weather_db` (Project Data Warehouse)**: Dedicated PostgreSQL database for storing weather forecast data and analytical views.
+   - **Automated SQL Setup**: Mounts `./sql` to `/docker-entrypoint-initdb.d`. All SQL scripts (`01_weather_risk_views.sql`, `02_rainfall_accumulation.sql`, etc.) execute automatically on startup to build database views and structures.
+   - **External Access (Port `5433`)**: Exposes port `5433:5432` so external tools (**Power BI**, **DBeaver**, or local SQL clients) can connect directly to `localhost:5433`.
 
-##### 5.1.2 Set Up Airflow in Docker
+##### 5.1.3 Running Airflow with Docker Compose & Dockerfile
 
-Create the required Airflow directories and place the project's DAG inside the `dags` folder:
-> or use already have the directory.
+1. **Set up Environment Variables**:
+   Copy `.env.example` to `.env` and fill in your TMD API key:
+   ```bash
+   cp .env.example .env
+   ```
 
-```text
-airflow-docker/
-├── docker-compose.yaml
-├── dags/
-│   └── pipeline.py
-├── logs/
-├── config/
-└── plugins/
-```
+2. **Build Image & Initialize Airflow**:
+   Build the custom Docker image using `Dockerfile` and initialize Airflow:
+   ```bash
+   docker compose up --build airflow-init
+   ```
 
-The `pipeline.py` DAG orchestrates the Weather ETL workflow:
+3. **Start All Services**:
+   ```bash
+   docker compose up -d
+   ```
+   *(If you make changes to `requirements.txt` or `src/`, rebuild the image anytime using `docker compose build`)*
 
-```text
-Extract → Transform → Load
-```
+4. **Verify Running Containers**:
+   ```bash
+   docker compose ps
+   ```
 
-Update the `volumes` section in `docker-compose.yaml` so the Airflow container can access the project's `src/` and `data/` directories:
+5. **Access the Airflow Web UI**:
+   Open http://localhost:8080 in your browser.
+   - **Default Username:** `airflow`
+   - **Default Password:** `airflow`
 
-```bash
-volumes:
-  - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
-  - <PROJECT_PATH>/src:/opt/airflow/src
-  - <PROJECT_PATH>/data:/opt/airflow/data
-```
+##### 5.1.4 Running the Weather ETL DAG
 
-Replace `<PROJECT_PATH>` with the local path to the cloned Weather ETL project.
+1. Open http://localhost:8080 and log in.
+2. Locate the DAG named `southern_thailand_weather_forecast_etl_pipeline`.
+3. Unpause/enable the DAG toggle and click **Trigger DAG**.
+4. The pipeline will execute the tasks in order: `Extract → Transform → Load`.
 
-Initialize Airflow:
+##### 5.1.5 Stopping Airflow
 
-```bash
-docker compose up airflow-init
-```
-
-After initialization is complete, start Airflow:
-
-```bash
-docker compose up -d
-```
-
-Check that the Airflow containers are running:
-
-```bash
-docker compose ps
-```
-
-Open the Airflow web interface:
-
-```text
-http://localhost:8080
-```
-
-#### 5.2 Important Configuration
-
-Before running the DAG, make sure the following configuration is correct in `docker-compose.yaml`.
-
-##### 5.2.1 Airflow Username and Password
-
-Check the Airflow username and password configured in the Docker Compose file.
-
-Use these credentials to log in to:
-
-```text
-http://localhost:8080
-```
-
-Do not commit personal or sensitive passwords to GitHub.
-
-##### 5.2.2 PostgreSQL Database URL
-
-The Airflow container needs to connect to the PostgreSQL database used by the Weather ETL project.
-
-Update the database URL in `docker-compose.yaml`:
-
-```yaml
-AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://<POSTGRES_USER>:<POSTGRES_PASSWORD>@host.docker.internal:5432/<POSTGRES_DATABASE>
-```
-
-Replace:
-
-```text
-<POSTGRES_USER>      → PostgreSQL username
-<POSTGRES_PASSWORD>  → PostgreSQL password
-<POSTGRES_DATABASE>  → PostgreSQL database name
-```
-
-Use `host.docker.internal` as the host when PostgreSQL is running on the local machine outside Docker.
-
-> **Important:** The database name is the PostgreSQL database name, not a table name or view name.
-
-##### 5.2.3 Run the Weather ETL DAG
-
-After Airflow is running, open:
-
-```text
-http://localhost:8080
-```
-
-Find the DAG:
-
-```text
-southern_thailand_weather_forecast_etl_pipeline
-```
-
-Enable/unpause the DAG and trigger a run.
-
-The tasks will run in the following order:
-
-```text
-Extract → Transform → Load
-```
-
-After a successful run, the weather data will be loaded into PostgreSQL.
-
-#### 5.2.4 Stop Airflow
-
-When finished, stop the Airflow containers:
-
+To stop all running services:
 ```bash
 docker compose down
 ```
 
-To start Airflow again:
-
-```bash
-docker compose up -d
-```
-
-#### 5.3 Run the Pipeline Without Airflow
+#### 5.2 Run the Pipeline Without Airflow
 
 If Airflow or Docker is unavailable, the ETL pipeline can still be run directly with Python.
 
@@ -373,6 +298,5 @@ rain > 10 mm
 
 ## Future Improvements
 
-- Containerize the pipeline with Docker
-- Add data quality tests
+- [ ] Add data quality tests (e.g. Great Expectations / Pytest)
 

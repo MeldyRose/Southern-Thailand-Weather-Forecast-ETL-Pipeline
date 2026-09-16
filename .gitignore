@@ -8,8 +8,6 @@ data/raw/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 logs/
-docker-compose.override.yaml
-docker-compose.yaml
 __pycache__/
 plugins
 config/airflow.cfg
