@@ -3,4 +3,10 @@ __pycache/
 .env
 *.pyc
 tests/
-data/
+data/processed/
+data/raw/
+logs/
+docker-compose.override.yaml
+docker-compose.yaml
+__pycache__/
+plugins
