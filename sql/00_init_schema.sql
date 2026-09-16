@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS weather (
+    geocode VARCHAR(50) NOT NULL,
+    forecast_time TIMESTAMP NOT NULL,
+    area_type VARCHAR(50),
+    latitude DOUBLE PRECISION,
+    longitude DOUBLE PRECISION,
+    name VARCHAR(100),
+    province VARCHAR(100),
+    region VARCHAR(50),
+    cloud_high DOUBLE PRECISION,
+    cloud_low DOUBLE PRECISION,
+    cloud_medium DOUBLE PRECISION,
+    condition INT,
+    rain DOUBLE PRECISION,
+    relative_humidity DOUBLE PRECISION,
+    sea_level_pressure DOUBLE PRECISION,
+    temperature DOUBLE PRECISION,
+    temperature_max DOUBLE PRECISION,
+    temperature_min DOUBLE PRECISION,
+    wind_direction DOUBLE PRECISION,
+    wind_speed DOUBLE PRECISION,
+    CONSTRAINT weather_unique_forecast UNIQUE (geocode, forecast_time)
+);
