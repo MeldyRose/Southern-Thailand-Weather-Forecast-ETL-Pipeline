@@ -2,5 +2,10 @@
 __pycache/
 .env
 *.pyc
+logs/
+plugins/
 tests/
-data/
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
