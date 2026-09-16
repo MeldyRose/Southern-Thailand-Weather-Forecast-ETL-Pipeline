@@ -114,23 +114,6 @@ services:
       retries: 5
       start_period: 5s
     restart: always
-  weather_db:
-    image: postgres:16-alpine
-    container_name: weather_postgres
-    ports: 
-      - "5433:5432"
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: weather_db
-    volumes:
-      - ./sql:/docker-entrypoint-initdb.d
-    healthcheck:
-      test: ["CMD", "pg_isready", "-U", "postgres"]
-      interval: 10s
-      retries: 5
-      start_period: 5s
-    restart: always
 
   redis:
     # Redis is limited to 7.2-bookworm due to licencing change
